@@ -1,0 +1,164 @@
+@media screen and (max-width: 480px) {
+    .head--left--section {
+      margin-left: 16px;
+      margin-top: 28px;
+      z-index: 1 !important;
+      position: relative;
+    }
+    .head--landing {
+      width: 100%;
+      height: 100vh;
+      display: block;
+      z-index: -10 !important;
+      margin-bottom: 50px;
+      margin: 0 auto;
+    }
+    .simple--text {
+      font-size: 1em;
+    }
+    .mobile--image {
+      position: absolute;
+      z-index: -10 !important;
+    }
+    .links_and_words {
+      display: none;
+    }
+    .img--trees {
+      object-fit: cover;
+      height: 680px;
+      top: -93px;
+
+    }
+    .about_us {
+      display: none;
+    }
+    .main--image--mobile {
+      display: block;
+      z-index: -10 !important;
+      width: 100%;
+      margin-top: 100px;
+    }
+    .white--text {
+      font-weight: 400;
+      margin-top: 50px;
+      font-size:1.5em;
+      margin-left: 10px;
+      width: 85%;
+    }
+    .h1--head {
+      font-size: 23px;
+      margin-bottom: 19px;
+    }
+    .arrow {
+      margin-top: 140px;
+    }
+    .cards {
+      display: block;
+    }
+    .cards--mobile {
+      display: block;
+    }
+    .card--mobile {
+      display: block;
+    }
+    .cards {
+      display: none;
+    }
+    .mobile--bubles {
+      display: block;
+      width: 100%;
+    }
+    .top--second--section {
+      margin-left: 16px;
+      width: 95%;
+      margin-right: 16px !important;
+    }
+    .text--third--section {
+      margin-left: 16px;
+      width: 95%;
+      margin-right: 16px !important;
+    }
+    .head--right--section{
+        display: none;
+    }
+    .question--frame {
+      background: white;
+      font-weight: 500;
+      font-size: 23px;
+      display: none;
+      margin-right: 15px;
+      margin-left: 15px;
+      display: inline-block;
+      border-radius: 50px;
+      padding: 18px 40px 18px 40px;
+    }
+    .first--line {
+      width: 100%;
+      position: absolute;
+      display: none;
+      animation-duration: 8s;
+      animation-name: example;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      left: -600px;
+    }
+    .second--line {
+      margin-top: 8%;
+      width: 100%;
+      position: absolute;
+      display: none;
+      animation-duration: 10s;
+      animation-name: move--second;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      left: 100%;
+    }
+    .third--line {
+      margin-top: 16%;
+      width: 100%;
+      position: absolute;
+      display: none;
+      animation-duration: 10s;
+      animation-name: move--third;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      left: 100%;
+    }
+    .h1--heading {
+      font-size: 2em;
+    }
+    .left_footer--mobie {
+      width: 100%;
+      margin-top: 40px;
+      display: flex;
+    }
+    .logo {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    }
+    .mobile--footer {
+      display: block;
+    }
+    .links--group--mobile {
+      display: flex;
+      margin-top: 40px;
+      width: 100%;
+    }
+    .florum--links--mobile {
+      width: 40%;
+      margin-right: 36px;
+      margin-left: 30px;
+    }
+    .second--section {
+      background: #738A5F;
+      border-radius: 30px;
+      width: 100%;
+      height: 105vh;
+      background-image: url('images/cactuss.png');
+      background-size: cover;
+      z-index: 2 !important;
+      margin-top: -111px;
+      padding-top: 10px;
+    }
+}
